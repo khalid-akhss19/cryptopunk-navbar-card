@@ -1,0 +1,73 @@
+.ImageCard {
+  width: 300px;
+}
+.punkCardImage {
+  border-radius: 20px 20px 0px 0px;
+  height: 300px;
+}
+
+.block2 {
+  top: -4px;
+  position: relative;
+  background-color: #5a615ac0;
+  border-radius: 0px 0px 20px 20px;
+  height: 200px;
+}
+.cardtext {
+  padding: 30px;
+  font-size: 18px;
+}
+.card_title {
+  color: wheat;
+}
+.card_no {
+  color: gray;
+}
+.ethimg {
+  width: 40px;
+  height: 40px;
+}
+.cardPrice {
+  display: flex;
+  align-items: center;
+  margin-left: -5px;
+}
+.price {
+  color: wheat;
+}
+@media (max-width: 700px) {
+  .punklogo {
+    width: 100px;
+  }
+}
+@media (max-width: 300px) {
+  .ImageCard {
+    width: 200px;
+  }
+  .punkCardImage {
+    border-radius: 20px 20px 0px 0px;
+    height: 200px;
+  }
+
+  .block2 {
+    top: -4px;
+    position: relative;
+    background-color: #5a615ac0;
+    border-radius: 0px 0px 20px 20px;
+    height: 150px;
+  }
+  .cardtext {
+    padding: 30px;
+    font-size: 14px;
+  }
+
+  .ethimg {
+    width: 20px;
+    height: 20px;
+  }
+  .cardPrice {
+    display: flex;
+    align-items: center;
+    margin-left: -5px;
+  }
+}
